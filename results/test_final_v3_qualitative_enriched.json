@@ -1,0 +1,411 @@
+{
+  "source_predictions": "results/test_final_v3.json",
+  "source_dataset": "data/processed/squad_v2",
+  "seed": 42,
+  "examples_per_category": 5,
+  "counts": {
+    "answerable_exact_match": 1941,
+    "answerable_partial_match": 294,
+    "answerable_false_abstention": 547,
+    "answerable_wrong_answer": 193,
+    "unanswerable_correct_abstention": 2378,
+    "unanswerable_false_answer": 587
+  },
+  "examples": {
+    "answerable_exact_match": [
+      {
+        "id": "5705ec1675f01819005e776f",
+        "question": "What is the name of the professional skateboarder that lives in southern California?",
+        "context": "Southern California is also home to a large home grown surf and skateboard culture. Companies such as Volcom, Quiksilver, No Fear, RVCA, and Body Glove are all headquartered here. Professional skateboarder Tony Hawk, professional surfers Rob Machado, Tim Curran, Bobby Martinez, Pat O'Connell, Dane Reynolds, and Chris Ward, and professional snowboarder Shaun White live in southern California. Some of the world's legendary surf spots are in southern California as well, including Trestles, Rincon, The Wedge, Huntington Beach, and Malibu, and it is second only to the island of Oahu in terms of famous surf breaks. Some of the world's biggest extreme sports events, including the X Games, Boost Mobile Pro, and the U.S. Open of Surfing are all in southern California. Southern California is also important to the world of yachting. The annual Transpacific Yacht Race, or Transpac, from Los Angeles to Hawaii, is one of yachting's premier events. The San Diego Yacht Club held the America's Cup, the most prestigious prize in yachting, from 1988 to 1995 and hosted three America's Cup races during that time.",
+        "prediction": "Tony Hawk",
+        "gold_answers": [
+          "Tony Hawk",
+          "Tony Hawk",
+          "Tony Hawk"
+        ],
+        "exact_match": 1.0,
+        "f1": 1.0,
+        "abstained": false
+      },
+      {
+        "id": "572881d34b864d1900164a5a",
+        "question": "What was huihui?",
+        "context": "Western medicine was also practiced in China by the Nestorian Christians of the Yuan court, where it was sometimes labeled as huihui or Muslim medicine. The Nestorian physician Jesus the Interpreter founded the Office of Western Medicine in 1263 during the reign of Kublai. Huihui doctors staffed at two imperial hospitals were responsible for treating the imperial family and members of the court. Chinese physicians opposed Western medicine because its humoral system contradicted the yin-yang and wuxing philosophy underlying traditional Chinese medicine. No Chinese translation of Western medical works is known, but it is possible that the Chinese had access to Avicenna's The Canon of Medicine.",
+        "prediction": "Muslim medicine",
+        "gold_answers": [
+          "Muslim medicine",
+          "Muslim medicine",
+          "Muslim medicine"
+        ],
+        "exact_match": 1.0,
+        "f1": 1.0,
+        "abstained": false
+      },
+      {
+        "id": "5725d42a89a1e219009abf5a",
+        "question": "In what town did Bill Aiken grow up?",
+        "context": "In the 1970s, the city was the subject of a song, \"Walking Into Fresno\", written by Hall Of Fame guitarist Bill Aken and recorded by Bob Gallion of the world-famous \"WWVA Jamboree\" radio and television show in Wheeling, West Virginia. Aken, adopted by Mexican movie actress Lupe Mayorga, grew up in the neighboring town of Madera and his song chronicled the hardships faced by the migrant farm workers he saw as a child. Aken also made his first TV appearance playing guitar on the old country-western show at The Fresno Barn.",
+        "prediction": "Madera",
+        "gold_answers": [
+          "Madera",
+          "Madera",
+          "Madera"
+        ],
+        "exact_match": 1.0,
+        "f1": 1.0,
+        "abstained": false
+      },
+      {
+        "id": "573005b9947a6a140053cf6b",
+        "question": "The defeat of the Arab troops in the Six-Day War constituted what for the Arab Muslim world?",
+        "context": "The quick and decisive defeat of the Arab troops during the Six-Day War by Israeli troops constituted a pivotal event in the Arab Muslim world. The defeat along with economic stagnation in the defeated countries, was blamed on the secular Arab nationalism of the ruling regimes. A steep and steady decline in the popularity and credibility of secular, socialist and nationalist politics ensued. Ba'athism, Arab socialism, and Arab nationalism suffered, and different democratic and anti-democratic Islamist movements inspired by Maududi and Sayyid Qutb gained ground.",
+        "prediction": "a pivotal event",
+        "gold_answers": [
+          "a pivotal event",
+          "a pivotal event in the Arab Muslim world",
+          "pivotal event"
+        ],
+        "exact_match": 1.0,
+        "f1": 1.0,
+        "abstained": false
+      },
+      {
+        "id": "572ff293947a6a140053ce56",
+        "question": "Which river joins the Rhine in Duisburg?",
+        "context": "Until the early 1980s, industry was a major source of water pollution. Although many plants and factories can be found along the Rhine up into Switzerland, it is along the Lower Rhine that the bulk of them are concentrated, as the river passes the major cities of Cologne, Düsseldorf and Duisburg. Duisburg is the home of Europe's largest inland port and functions as a hub to the sea ports of Rotterdam, Antwerp and Amsterdam. The Ruhr, which joins the Rhine in Duisburg, is nowadays a clean river, thanks to a combination of stricter environmental controls, a transition from heavy industry to light industry and cleanup measures, such as the reforestation of Slag and brownfields. The Ruhr currently provides the region with drinking water. It contributes 70 m3/s (2,500 cu ft/s) to the Rhine. Other rivers in the Ruhr Area, above all, the Emscher, still carry a considerable degree of pollution.",
+        "prediction": "The Ruhr",
+        "gold_answers": [
+          "Ruhr",
+          "Ruhr",
+          "The Ruhr"
+        ],
+        "exact_match": 1.0,
+        "f1": 1.0,
+        "abstained": false
+      }
+    ],
+    "answerable_partial_match": [
+      {
+        "id": "57264865dd62a815002e8062",
+        "question": "When was there an attempt to reform the law of the EU?",
+        "context": "Following the Nice Treaty, there was an attempt to reform the constitutional law of the European Union and make it more transparent; this would have also produced a single constitutional document. However, as a result of the referendum in France and the referendum in the Netherlands, the 2004 Treaty establishing a Constitution for Europe never came into force. Instead, the Lisbon Treaty was enacted. Its substance was very similar to the proposed constitutional treaty, but it was formally an amending treaty, and – though it significantly altered the existing treaties – it did not completely replace them.",
+        "prediction": "the Nice Treaty",
+        "gold_answers": [
+          "Following the Nice Treaty",
+          "2004",
+          "Following the Nice Treaty",
+          "Following the Nice Treaty"
+        ],
+        "exact_match": 0.0,
+        "f1": 0.8,
+        "abstained": false
+      },
+      {
+        "id": "57269e3bf1498d1400e8e519",
+        "question": "Which company did Mrs Foster work for?",
+        "context": "First, if a Directive's deadline for implementation is not met, the member state cannot enforce conflicting laws, and a citizen may rely on the Directive in such an action (so called \"vertical\" direct effect). So, in Pubblico Ministero v Ratti because the Italian government had failed to implement a Directive 73/173/EEC on packaging and labelling solvents by the deadline, it was estopped from enforcing a conflicting national law from 1963 against Mr Ratti's solvent and varnish business. A member state could \"not rely, as against individuals, on its own failure to perform the obligations which the Directive entails.\" Second, a citizen or company can invoke a Directive, not just in a dispute with a public authority, but in a dispute with another citizen or company. So, in CIA Security v Signalson and Securitel the Court of Justice held that a business called CIA Security could defend itself from allegations by competitors that it had not complied with a Belgian decree from 1991 about alarm systems, on the basis that it had not been notified to the Commission as a Directive required. Third, if a Directive gives expression to a \"general principle\" of EU law, it can be invoked between private non-state parties before its deadline for implementation. This follows from Kücükdeveci v Swedex GmbH & Co KG where the German Civil Code §622 stated that the years people worked under the age of 25 would not count towards the increasing statutory notice before dismissal. Ms Kücükdeveci worked for 10 years, from age 18 to 28, for Swedex GmbH & Co KG before her dismissal. She claimed that the law not counting her years under age 25 was unlawful age discrimination under the Employment Equality Framework Directive. The Court of Justice held that the Directive could be relied on by her because equality was also a general principle of EU law. Third, if the defendant is an emanation of the state, even if not central government, it can still be bound by Directives. In Foster v British Gas plc the Court of Justice held that Mrs Foster was entitled to bring a sex discrimination claim against her employer, British Gas plc, which made women retire at age 60 and men at 65, if (1) pursuant to a state measure, (2) it provided a public service, and (3) had special powers. This could also be true if the enterprise is privatised, as it was held with a water company that was responsible for basic water provision.",
+        "prediction": "British Gas",
+        "gold_answers": [
+          "British Gas plc",
+          "British Gas plc",
+          "British Gas plc"
+        ],
+        "exact_match": 0.0,
+        "f1": 0.8,
+        "abstained": false
+      },
+      {
+        "id": "5728848cff5b5019007da29a",
+        "question": "There were many Chinese with what unexpected status?",
+        "context": "The historian Frederick W. Mote wrote that the usage of the term \"social classes\" for this system was misleading and that the position of people within the four-class system was not an indication of their actual social power and wealth, but just entailed \"degrees of privilege\" to which they were entitled institutionally and legally, so a person's standing within the classes was not a guarantee of their standing, since there were rich and well socially standing Chinese while there were less rich Mongol and Semu than there were Mongol and Semu who lived in poverty and were ill treated.",
+        "prediction": "less rich Mongol and Semu than there were Mongol and Semu who lived in poverty and were ill treated",
+        "gold_answers": [
+          "rich and well socially standing",
+          "rich and well",
+          "rich and well socially standing"
+        ],
+        "exact_match": 0.0,
+        "f1": 0.18181818181818182,
+        "abstained": false
+      },
+      {
+        "id": "57274d9bf1498d1400e8f5f9",
+        "question": "What is the name of the post-independence government school system in Malaysia?",
+        "context": "After Malaysia's independence in 1957, the government instructed all schools to surrender their properties and be assimilated into the National School system. This caused an uproar among the Chinese and a compromise was achieved in that the schools would instead become \"National Type\" schools. Under such a system, the government is only in charge of the school curriculum and teaching personnel while the lands still belonged to the schools. While Chinese primary schools were allowed to retain Chinese as the medium of instruction, Chinese secondary schools are required to change into English-medium schools. Over 60 schools converted to become National Type schools.",
+        "prediction": "National School system",
+        "gold_answers": [
+          "National School",
+          "National Type",
+          "National School"
+        ],
+        "exact_match": 0.0,
+        "f1": 0.8,
+        "abstained": false
+      },
+      {
+        "id": "57096f37200fba1400367fe8",
+        "question": "Does BSkyB carry any control over a channels content?",
+        "context": "BSkyB has no veto over the presence of channels on their EPG, with open access being an enforced part of their operating licence from Ofcom. Any channel which can get carriage on a suitable beam of a satellite at 28° East is entitled to access to BSkyB's EPG for a fee, ranging from £15–100,000. Third-party channels which opt for encryption receive discounts ranging from reduced price to free EPG entries, free carriage on a BSkyB leased transponder, or actual payment for being carried. However, even in this case, BSkyB does not carry any control over the channel's content or carriage issues such as picture quality.",
+        "prediction": "does not",
+        "gold_answers": [
+          "not",
+          "not",
+          "BSkyB does not carry any control"
+        ],
+        "exact_match": 0.0,
+        "f1": 0.6666666666666666,
+        "abstained": false
+      }
+    ],
+    "answerable_false_abstention": [
+      {
+        "id": "5729f12e3f37b319004785e2",
+        "question": "The adaptive immune system recognizes non-self antigens during a process called what?",
+        "context": "The adaptive immune system evolved in early vertebrates and allows for a stronger immune response as well as immunological memory, where each pathogen is \"remembered\" by a signature antigen. The adaptive immune response is antigen-specific and requires the recognition of specific \"non-self\" antigens during a process called antigen presentation. Antigen specificity allows for the generation of responses that are tailored to specific pathogens or pathogen-infected cells. The ability to mount these tailored responses is maintained in the body by \"memory cells\". Should a pathogen infect the body more than once, these specific memory cells are used to quickly eliminate it.",
+        "prediction": "I don't know.",
+        "gold_answers": [
+          "antigen presentation",
+          "antigen presentation",
+          "antigen presentation"
+        ],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": true
+      },
+      {
+        "id": "56e1ee4de3433e1400423214",
+        "question": "What evidence between and among complexity classes would signify a theoretical watershed for complexity theory?",
+        "context": "Many known complexity classes are suspected to be unequal, but this has not been proved. For instance P ⊆ NP ⊆ PP ⊆ PSPACE, but it is possible that P = PSPACE. If P is not equal to NP, then P is not equal to PSPACE either. Since there are many known complexity classes between P and PSPACE, such as RP, BPP, PP, BQP, MA, PH, etc., it is possible that all these complexity classes collapse to one class. Proving that any of these classes are unequal would be a major breakthrough in complexity theory.",
+        "prediction": "I don't know.",
+        "gold_answers": [
+          "Proving that any of these classes are unequal",
+          "Proving that any of these classes are unequal",
+          "Proving that any of these classes are unequal"
+        ],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": true
+      },
+      {
+        "id": "5733da01d058e614000b63fb",
+        "question": "What tribes supported British?",
+        "context": "Further south the Southeast interior was dominated by Siouan-speaking Catawba, Muskogee-speaking Creek and Choctaw, and the Iroquoian-speaking Cherokee tribes. When war broke out, the French used their trading connections to recruit fighters from tribes in western portions of the Great Lakes region (an area not directly subject to the conflict between the French and British), including the Huron, Mississauga, Ojibwa, Winnebago, and Potawatomi. The British were supported in the war by the Iroquois Six Nations, and also by the Cherokee – until differences sparked the Anglo-Cherokee War in 1758. In 1758 the Pennsylvania government successfully negotiated the Treaty of Easton, in which a number of tribes in the Ohio Country promised neutrality in exchange for land concessions and other considerations. Most of the other northern tribes sided with the French, their primary trading partner and supplier of arms. The Creek and Cherokee were subject to diplomatic efforts by both the French and British to gain either their support or neutrality in the conflict. It was not uncommon for small bands to participate on the \"other side\" of the conflict from formally negotiated agreements, as most tribes were decentralized and bands made their own decisions about warfare.",
+        "prediction": "I don't know.",
+        "gold_answers": [
+          "Iroquois Six Nations, and also by the Cherokee",
+          "Iroquois Six Nations, and also by the Cherokee",
+          "Iroquois Six Nations, and also by the Cherokee",
+          "Iroquois",
+          "the Iroquois Six Nations"
+        ],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": true
+      },
+      {
+        "id": "5728128cff5b5019007d9c79",
+        "question": "What factors negatively impacted Jacksonville following the war?",
+        "context": "During the American Civil War, Jacksonville was a key supply point for hogs and cattle being shipped from Florida to aid the Confederate cause. The city was blockaded by Union forces, who gained control of the nearby Fort Clinch. Though no battles were fought in Jacksonville proper, the city changed hands several times between Union and Confederate forces. The Skirmish of the Brick Church in 1862 just outside Jacksonville proper resulted in the first Confederate victory in Florida. In February 1864 Union forces left Jacksonville and confronted a Confederate Army at the Battle of Olustee resulting in a Confederate victory. Union forces then retreated to Jacksonville and held the city for the remainder of the war. In March 1864 a Confederate cavalry confronted a Union expedition resulting in the Battle of Cedar Creek. Warfare and the long occupation left the city disrupted after the war.",
+        "prediction": "I don't know.",
+        "gold_answers": [
+          "Warfare and the long occupation",
+          "Warfare and the long occupation",
+          "Warfare and the long occupation"
+        ],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": true
+      },
+      {
+        "id": "57287ccb2ca10214002da3dd",
+        "question": "What legitimate dynasty came after the Yuan?",
+        "context": "The Yuan dynasty was the first time that non-native Chinese people ruled all of China. In the historiography of Mongolia, it is generally considered to be the continuation of the Mongol Empire. Mongols are widely known to worship the Eternal Heaven, and according to the traditional Mongolian ideology Yuan is considered to be \"the beginning of an infinite number of beings, the foundation of peace and happiness, state power, the dream of many peoples, besides it there is nothing great or precious.\" In traditional historiography of China, on the other hand, the Yuan dynasty is usually considered to be the legitimate dynasty between the Song dynasty and the Ming dynasty. Note, however, Yuan dynasty is traditionally often extended to cover the Mongol Empire before Kublai Khan's formal establishment of the Yuan in 1271, partly because Kublai had his grandfather Genghis Khan placed on the official record as the founder of the dynasty or Taizu (Chinese: 太祖). Despite the traditional historiography as well as the official views (including the government of the Ming dynasty which overthrew the Yuan dynasty), there also exist Chinese people[who?] who did not consider the Yuan dynasty as a legitimate dynasty of China, but rather as a period of foreign domination. The latter believe that Han Chinese were treated as second-class citizens,[citation needed] and that China stagnated economically and scientifically.",
+        "prediction": "I don't know.",
+        "gold_answers": [
+          "Ming",
+          "Ming dynasty",
+          "the Ming dynasty"
+        ],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": true
+      }
+    ],
+    "answerable_wrong_answer": [
+      {
+        "id": "5725cfd0271a42140099d229",
+        "question": "What entity sparked the growth of Fresno Station?",
+        "context": "In 1872, the Central Pacific Railroad established a station near Easterby's—by now a hugely productive wheat farm—for its new Southern Pacific line. Soon there was a store around the station and the store grew the town of Fresno Station, later called Fresno. Many Millerton residents, drawn by the convenience of the railroad and worried about flooding, moved to the new community. Fresno became an incorporated city in 1885. By 1931 the Fresno Traction Company operated 47 streetcars over 49 miles of track.",
+        "prediction": "the Central Pacific Railroad",
+        "gold_answers": [
+          "store",
+          "store",
+          "store"
+        ],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      },
+      {
+        "id": "572885c44b864d1900164a7a",
+        "question": "Where was the Central Secretariat based?",
+        "context": "The Central Region, consisting of present-day Hebei, Shandong, Shanxi, the south-eastern part of present-day Inner Mongolia and the Henan areas to the north of the Yellow River, was considered the most important region of the dynasty and directly governed by the Central Secretariat (or Zhongshu Sheng) at Khanbaliq (modern Beijing); similarly, another top-level administrative department called the Bureau of Buddhist and Tibetan Affairs (or Xuanzheng Yuan) held administrative rule over the whole of modern-day Tibet and a part of Sichuan, Qinghai and Kashmir.",
+        "prediction": "Beijing",
+        "gold_answers": [
+          "Khanbaliq",
+          "Khanbaliq",
+          "Khanbaliq"
+        ],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      },
+      {
+        "id": "5729d609af94a219006aa665",
+        "question": "What type of wages does mechanization and automation lead to?",
+        "context": "In Marxian analysis, capitalist firms increasingly substitute capital equipment for labor inputs (workers) under competitive pressure to reduce costs and maximize profits. Over the long-term, this trend increases the organic composition of capital, meaning that less workers are required in proportion to capital inputs, increasing unemployment (the \"reserve army of labour\"). This process exerts a downward pressure on wages. The substitution of capital equipment for labor (mechanization and automation) raises the productivity of each worker, resulting in a situation of relatively stagnant wages for the working class amidst rising levels of property income for the capitalist class.",
+        "prediction": "stationary",
+        "gold_answers": [
+          "stagnant",
+          "stagnant wages",
+          "stagnant"
+        ],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      },
+      {
+        "id": "573005b9947a6a140053cf6a",
+        "question": "What was the defeat of the Arab troops at the hand of the Israeli troops during the Six-Day War?",
+        "context": "The quick and decisive defeat of the Arab troops during the Six-Day War by Israeli troops constituted a pivotal event in the Arab Muslim world. The defeat along with economic stagnation in the defeated countries, was blamed on the secular Arab nationalism of the ruling regimes. A steep and steady decline in the popularity and credibility of secular, socialist and nationalist politics ensued. Ba'athism, Arab socialism, and Arab nationalism suffered, and different democratic and anti-democratic Islamist movements inspired by Maududi and Sayyid Qutb gained ground.",
+        "prediction": "a pivotal event in the Arab Muslim world",
+        "gold_answers": [
+          "quick and decisive",
+          "quick and decisive defeat",
+          "quick and decisive"
+        ],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      },
+      {
+        "id": "5725d42a89a1e219009abf5b",
+        "question": "On what show did Bill Aiken make is television debut?",
+        "context": "In the 1970s, the city was the subject of a song, \"Walking Into Fresno\", written by Hall Of Fame guitarist Bill Aken and recorded by Bob Gallion of the world-famous \"WWVA Jamboree\" radio and television show in Wheeling, West Virginia. Aken, adopted by Mexican movie actress Lupe Mayorga, grew up in the neighboring town of Madera and his song chronicled the hardships faced by the migrant farm workers he saw as a child. Aken also made his first TV appearance playing guitar on the old country-western show at The Fresno Barn.",
+        "prediction": "WWVA Jamboree",
+        "gold_answers": [
+          "The Fresno Barn",
+          "The Fresno Barn",
+          "the old country-western show at The Fresno Barn"
+        ],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      }
+    ],
+    "unanswerable_correct_abstention": [
+      {
+        "id": "5ad26420d7d075001a429136",
+        "question": "What does high levels of inequality do to growth in rich countries?",
+        "context": "Research by Harvard economist Robert Barro, found that there is \"little overall relation between income inequality and rates of growth and investment\". According to work by Barro in 1999 and 2000, high levels of inequality reduce growth in relatively poor countries but encourage growth in richer countries. A study of Swedish counties between 1960 and 2000 found a positive impact of inequality on growth with lead times of five years or less, but no correlation after ten years. Studies of larger data sets have found no correlations for any fixed lead time, and a negative impact on the duration of growth.",
+        "prediction": "I don't know.",
+        "gold_answers": [],
+        "exact_match": 1.0,
+        "f1": 1.0,
+        "abstained": true
+      },
+      {
+        "id": "5a1c6968b4fb5d001871461b",
+        "question": "What area did the Mocama inhabit in 2500 BC?",
+        "context": "The area of the modern city of Jacksonville has been inhabited for thousands of years. On Black Hammock Island in the national Timucuan Ecological and Historic Preserve, a University of North Florida team discovered some of the oldest remnants of pottery in the United States, dating to 2500 BC. In the 16th century, the beginning of the historical era, the region was inhabited by the Mocama, a coastal subgroup of the Timucua people. At the time of contact with Europeans, all Mocama villages in present-day Jacksonville were part of the powerful chiefdom known as the Saturiwa, centered around the mouth of the St. Johns River. One early map shows a village called Ossachite at the site of what is now downtown Jacksonville; this may be the earliest recorded name for that area.",
+        "prediction": "I don't know.",
+        "gold_answers": [],
+        "exact_match": 1.0,
+        "f1": 1.0,
+        "abstained": true
+      },
+      {
+        "id": "5ad11097645df0001a2d0be0",
+        "question": "How did the principle treaties that form the Canadian Union begin?",
+        "context": "The principal Treaties that form the European Union began with common rules for coal and steel, and then atomic energy, but more complete and formal institutions were established through the Treaty of Rome 1957 and the Maastricht Treaty 1992 (now: TFEU). Minor amendments were made during the 1960s and 1970s. Major amending treaties were signed to complete the development of a single, internal market in the Single European Act 1986, to further the development of a more social Europe in the Treaty of Amsterdam 1997, and to make minor amendments to the relative power of member states in the EU institutions in the Treaty of Nice 2001 and the Treaty of Lisbon 2007. Since its establishment, more member states have joined through a series of accession treaties, from the UK, Ireland, Denmark and Norway in 1972 (though Norway did not end up joining), Greece in 1979, Spain and Portugal 1985, Austria, Finland, Norway and Sweden in 1994 (though again Norway failed to join, because of lack of support in the referendum), the Czech Republic, Cyprus, Estonia, Hungary, Latvia, Lithuania, Malta, Poland, Slovakia and Slovenia in 2004, Romania and Bulgaria in 2007 and Croatia in 2013. Greenland signed a Treaty in 1985 giving it a special status.",
+        "prediction": "I don't know.",
+        "gold_answers": [],
+        "exact_match": 1.0,
+        "f1": 1.0,
+        "abstained": true
+      },
+      {
+        "id": "5a38aa28a4b263001a8c1880",
+        "question": "What did Israel and Syria do to avoid being targeted by the boycott?",
+        "context": "The crisis had a major impact on international relations and created a rift within NATO. Some European nations and Japan sought to disassociate themselves from United States foreign policy in the Middle East to avoid being targeted by the boycott. Arab oil producers linked any future policy changes to peace between the belligerents. To address this, the Nixon Administration began multilateral negotiations with the combatants. They arranged for Israel to pull back from the Sinai Peninsula and the Golan Heights. By January 18, 1974, US Secretary of State Henry Kissinger had negotiated an Israeli troop withdrawal from parts of the Sinai Peninsula. The promise of a negotiated settlement between Israel and Syria was enough to convince Arab oil producers to lift the embargo in March 1974.",
+        "prediction": "I don't know.",
+        "gold_answers": [],
+        "exact_match": 1.0,
+        "f1": 1.0,
+        "abstained": true
+      },
+      {
+        "id": "5ad4caf45b96ef001a10a0d8",
+        "question": "What army did Germany successfully defend itself against?",
+        "context": "Warsaw was occupied by Germany from 4 August 1915 until November 1918. The Allied Armistice terms required in Article 12 that Germany withdraw from areas controlled by Russia in 1914, which included Warsaw. Germany did so, and underground leader Piłsudski returned to Warsaw on 11 November and set up what became the Second Polish Republic, with Warsaw the capital. In the course of the Polish-Bolshevik War of 1920, the huge Battle of Warsaw was fought on the eastern outskirts of the city in which the capital was successfully defended and the Red Army defeated. Poland stopped by itself the full brunt of the Red Army and defeated an idea of the \"export of the revolution\".",
+        "prediction": "I don't know.",
+        "gold_answers": [],
+        "exact_match": 1.0,
+        "f1": 1.0,
+        "abstained": true
+      }
+    ],
+    "unanswerable_false_answer": [
+      {
+        "id": "5ad0447f77cf76001a686f52",
+        "question": "Labour leader Iain Gray gave up East Lothian by how many votes?",
+        "context": "The election produced a majority SNP government, making this the first time in the Scottish Parliament where a party has commanded a parliamentary majority. The SNP took 16 seats from Labour, with many of their key figures not returned to parliament, although Labour leader Iain Gray retained East Lothian by 151 votes. The SNP took a further eight seats from the Liberal Democrats and one seat from the Conservatives. The SNP overall majority meant that there was sufficient support in the Scottish Parliament to hold a referendum on Scottish independence.",
+        "prediction": "151",
+        "gold_answers": [],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      },
+      {
+        "id": "5a7b070121c2de001afe9cef",
+        "question": "What year did the BankAmericard become successful?",
+        "context": "In September 1958, Bank of America launched a new product called BankAmericard in Fresno. After a troubled gestation during which its creator resigned, BankAmericard went on to become the first successful credit card; that is, a financial instrument that was usable across a large number of merchants and also allowed cardholders to revolve a balance (earlier financial products could do one or the other but not both). In 1976, BankAmericard was renamed and spun off into a separate company known today as Visa Inc.",
+        "prediction": "1958",
+        "gold_answers": [],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      },
+      {
+        "id": "5ad41813604f3c001a4003df",
+        "question": "What is the weight of a bushel of engines in pounds?",
+        "context": "The historical measure of a steam engine's energy efficiency was its \"duty\". The concept of duty was first introduced by Watt in order to illustrate how much more efficient his engines were over the earlier Newcomen designs. Duty is the number of foot-pounds of work delivered by burning one bushel (94 pounds) of coal. The best examples of Newcomen designs had a duty of about 7 million, but most were closer to 5 million. Watt's original low-pressure designs were able to deliver duty as high as 25 million, but averaged about 17. This was a three-fold improvement over the average Newcomen design. Early Watt engines equipped with high-pressure steam improved this to 65 million.",
+        "prediction": "94",
+        "gold_answers": [],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      },
+      {
+        "id": "5ad3dbc6604f3c001a3ff3eb",
+        "question": "Who did the Normans encourage to come to the south?",
+        "context": "Soon after the Normans began to enter Italy, they entered the Byzantine Empire and then Armenia, fighting against the Pechenegs, the Bulgars, and especially the Seljuk Turks. Norman mercenaries were first encouraged to come to the south by the Lombards to act against the Byzantines, but they soon fought in Byzantine service in Sicily. They were prominent alongside Varangian and Lombard contingents in the Sicilian campaign of George Maniaces in 1038–40. There is debate whether the Normans in Greek service actually were from Norman Italy, and it now seems likely only a few came from there. It is also unknown how many of the \"Franks\", as the Byzantines called them, were Normans and not other Frenchmen.",
+        "prediction": "Lombards",
+        "gold_answers": [],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      },
+      {
+        "id": "5a7504cb97ca42001a521dc3",
+        "question": "What did the oil crisis create a rift within? ",
+        "context": "The crisis had a major impact on international relations and created a rift within NATO. Some European nations and Japan sought to disassociate themselves from United States foreign policy in the Middle East to avoid being targeted by the boycott. Arab oil producers linked any future policy changes to peace between the belligerents. To address this, the Nixon Administration began multilateral negotiations with the combatants. They arranged for Israel to pull back from the Sinai Peninsula and the Golan Heights. By January 18, 1974, US Secretary of State Henry Kissinger had negotiated an Israeli troop withdrawal from parts of the Sinai Peninsula. The promise of a negotiated settlement between Israel and Syria was enough to convince Arab oil producers to lift the embargo in March 1974.",
+        "prediction": "NATO",
+        "gold_answers": [],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      }
+    ]
+  }
+}

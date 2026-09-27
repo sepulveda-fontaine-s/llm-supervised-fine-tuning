@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local environment / secrets
+.env
+.env.*
+!.env.example
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Runtime logs
+logs/
+*.out
+*.err
+*.log
+
+# MLflow local tracking
+mlruns/
+mlflow.db
+
+# Large model artifacts / checkpoints
+models/
+results/checkpoints/
+
+# Generated datasets
+data/raw/
+data/processed/
+data/tokenized/
+
+# Local experiment databases
+results/*.db
+
+# Temporary / packaged handoff artifacts
+*.tar
+*.tar.gz
+*.zip
+
+# Temporary rerun artifacts
+*rerun*
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/

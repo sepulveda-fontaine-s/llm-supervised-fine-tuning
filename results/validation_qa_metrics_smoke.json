@@ -1,0 +1,1411 @@
+{
+  "split": "validation",
+  "limit": 64,
+  "generation_config": {
+    "do_sample": false,
+    "repetition_penalty": 1.0,
+    "max_new_tokens": 64
+  },
+  "base": {
+    "summary": {
+      "examples": 64,
+      "answerable_examples": 25,
+      "unanswerable_examples": 39,
+      "answerable_exact_match": 0.0,
+      "answerable_f1": 0.17518917201396977,
+      "answerable_false_abstention_rate": 0.0,
+      "unanswerable_abstention_accuracy": 0.0,
+      "unanswerable_hallucination_rate": 1.0,
+      "task_exact_match": 0.0,
+      "task_f1": 0.06843327031795694
+    },
+    "predictions": [
+      {
+        "id": "5727d1c93acd2414000ded3f",
+        "answerable": true,
+        "prediction": "The applicant admission rate for class of 2019 is 5.3%.",
+        "gold_answers": [
+          "accepted 5.3% of applicants",
+          "5.3%",
+          "5.3%"
+        ],
+        "exact_match": 0.0,
+        "f1": 0.30769230769230765,
+        "abstained": false
+      },
+      {
+        "id": "5ad02cfc77cf76001a686ce6",
+        "answerable": false,
+        "prediction": "Context:\nThe debating chamber of the Scottish Parliament has seating arranged in a hemicycle, which reflects the desire to encourage consensus amongst elected members. There are 131 seats in the debating chamber. Of the total 131 seats, 129 are occupied by the Parliament's elected MSPs and",
+        "gold_answers": [],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      },
+      {
+        "id": "572fe9b3947a6a140053cde2",
+        "answerable": true,
+        "prediction": "The Rhine gets more than a fifth of the discharge at the Dutch border from the Aare.",
+        "gold_answers": [
+          "1,000 m3/s (35,000 cu ft/s),",
+          "1,000 m3/s"
+        ],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      },
+      {
+        "id": "5ad2456dd7d075001a428aa2",
+        "answerable": false,
+        "prediction": "O molecules in triplet form are paramagnetic.",
+        "gold_answers": [],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      },
+      {
+        "id": "572853e8ff5b5019007da18a",
+        "answerable": true,
+        "prediction": "Context:\nUndergraduate students are required to take a distribution of courses to satisfy the university's core curriculum known as the Common Core. In 2012-2013, the Core classes at Chicago were limited to 17 students, and are generally led by a full-time professor (as opposed to",
+        "gold_answers": [
+          "the most rigorous, intense",
+          "the most rigorous, intense"
+        ],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      },
+      {
+        "id": "5ad28253d7d075001a429835",
+        "answerable": false,
+        "prediction": "The name of the shortest suspension bridge in Germany is the Emmerich Rhine Bridge.",
+        "gold_answers": [],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      },
+      {
+        "id": "5ad3a21d604f3c001a3fea1e",
+        "answerable": false,
+        "prediction": "The territory that was ceded to France was the territory east of the Mississippi River.",
+        "gold_answers": [],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      },
+      {
+        "id": "5a25e4a2ef59cd001a623d0b",
+        "answerable": false,
+        "prediction": "The time element in construction refers to the period of time required to complete a project, which is a complex net of contracts and other legal obligations. This time element is not so simple a matter as trying to get the other side to agree to as much as possible in exchange for as little as possible. The time element in",
+        "gold_answers": [],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      },
+      {
+        "id": "5ad0392577cf76001a686e4e",
+        "answerable": false,
+        "prediction": "The large number of MSPs is a compromise between the parties in Parliament.",
+        "gold_answers": [],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      },
+      {
+        "id": "5a581597770dc0001aeeffe4",
+        "answerable": false,
+        "prediction": "Context:\nIn the laboratory, stratigraphers analyze samples of stratigraphic sections that can be returned from the field, such as those from drill cores. Stratigraphers also analyze data from geophysical surveys that show the locations of stratigraphic units in the subsurface. Geophysical data and well logs can be combined",
+        "gold_answers": [],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      },
+      {
+        "id": "5ad267e2d7d075001a429249",
+        "answerable": false,
+        "prediction": "The answer is that when economic inequality is larger, more waste and pollution is created. This is because as the poor people in society become more wealthy, it increases their yearly carbon emissions. This relation is expressed by the Environmental Kuznets Curve (EKC). It should be noted here however that in certain cases, with",
+        "gold_answers": [],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      },
+      {
+        "id": "5ad2895bd7d075001a429985",
+        "answerable": false,
+        "prediction": "Answer:\nAssistant:\nLETE",
+        "gold_answers": [],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      },
+      {
+        "id": "573085ea8ab72b1400f9c54c",
+        "answerable": true,
+        "prediction": "The answer is: Imperialism and colonialism both dictate the political and economic advantage over a land and the indigenous populations they control, yet scholars sometimes find it difficult to illustrate the difference between the two. Although imperialism and colonialism focus on the suppression of an other, if colonialism refers to the process of a country taking",
+        "gold_answers": [
+          "Imperialism and colonialism",
+          "Imperialism and colonialism",
+          "Imperialism and colonialism",
+          "Imperialism and colonialism"
+        ],
+        "exact_match": 0.0,
+        "f1": 0.12244897959183672,
+        "abstained": false
+      },
+      {
+        "id": "57269f3ef1498d1400e8e535",
+        "answerable": true,
+        "prediction": "The First Company Law Directive article 11 requires incorporations to be nullified for a fixed list of reasons.",
+        "gold_answers": [
+          "incorporations would only be nullified for a fixed list of reasons",
+          "incorporations would only be nullified for a fixed list of reasons",
+          "incorporations would only be nullified for a fixed list of reasons"
+        ],
+        "exact_match": 0.0,
+        "f1": 0.6153846153846154,
+        "abstained": false
+      },
+      {
+        "id": "5acf9a5277cf76001a68541f",
+        "answerable": false,
+        "prediction": "Chicago",
+        "gold_answers": [],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      },
+      {
+        "id": "57297ed93f37b31900478463",
+        "answerable": true,
+        "prediction": "The name of another compelling continuation of the Fermat primality test is the Miller-Rabin primality test.",
+        "gold_answers": [
+          "Solovay-Strassen tests",
+          "Miller-Rabin",
+          "Miller-Rabin",
+          "Miller-Rabin",
+          "Miller-Rabin"
+        ],
+        "exact_match": 0.0,
+        "f1": 0.14285714285714288,
+        "abstained": false
+      },
+      {
+        "id": "5ad4f8255b96ef001a10a810",
+        "answerable": false,
+        "prediction": "The pathogen that does not use antigenic variation is HIV.",
+        "gold_answers": [],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      },
+      {
+        "id": "5a8241e631013a001a335361",
+        "answerable": false,
+        "prediction": "The answer is the Malkin Athletic Center.",
+        "gold_answers": [],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      },
+      {
+        "id": "5acfec9277cf76001a686506",
+        "answerable": false,
+        "prediction": "Context:\nAnother of the Egyptian groups which employed violence in their struggle for Islamic order was al-Gama'a al-Islamiyya (Islamic Group). Victims of their campaign against the Egyptian state in the 1990s included the head of the counter-terrorism police (Major General Raouf Khayrat),",
+        "gold_answers": [],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      },
+      {
+        "id": "5a3e3614378766001a0024eb",
+        "answerable": false,
+        "prediction": "The 12 national science academies issued a joint statement on climate change in 2001.",
+        "gold_answers": [],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      },
+      {
+        "id": "5ad13b23645df0001a2d12fa",
+        "answerable": false,
+        "prediction": "The major case that happened in the 1970's where the Court of Justice held that ultimately the Treaty of Rome in no way prevented energy nationalism was in the case of Amministrazione delle Finanze v Simmenthal SpA. In this case, the company Simmenthal SpA claimed that",
+        "gold_answers": [],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      },
+      {
+        "id": "5ad3bb68604f3c001a3feec3",
+        "answerable": false,
+        "prediction": "Montcalm was defeated by Wolfe at Quebec.",
+        "gold_answers": [],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      },
+      {
+        "id": "5a6cefd64eec6b001a80a706",
+        "answerable": false,
+        "prediction": "The two symbols that signify pharmacy in non-English-speaking countries are the mortar and pestle and the ℞ (recipere) character, which is often written as \"Rx\" in typed text.",
+        "gold_answers": [],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      },
+      {
+        "id": "5ad268b2d7d075001a429289",
+        "answerable": false,
+        "prediction": "The unusual form of the government's wealth redistribution is forceful taking of property.",
+        "gold_answers": [],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      },
+      {
+        "id": "5a892e8e3b2508001a72a4fb",
+        "answerable": false,
+        "prediction": "The name of one impressive continuation of the Carmichael primality test is the Baillie-PSW test.",
+        "gold_answers": [],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      },
+      {
+        "id": "5ad0403c77cf76001a686ef0",
+        "answerable": false,
+        "prediction": "Context:\nRoyal assent: After the bill has been passed, the Presiding Officer submits it to the Monarch for royal assent and it becomes an Act of the Scottish Parliament. However he cannot do so until a 4-week period has elapsed, during which the Law Officers of the Scottish Government or UK Government can",
+        "gold_answers": [],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      },
+      {
+        "id": "5ad267e2d7d075001a429247",
+        "answerable": false,
+        "prediction": "Answer: If there were fewer people, the Environmental Kuznets Curve (EKC) would suggest that the amount of environmental degradation would be lower as well. This is because the multiplier would be lower, meaning that the increase in emissions per person would be multiplied by a smaller factor. As a result, the overall impact",
+        "gold_answers": [],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      },
+      {
+        "id": "5ad0381a77cf76001a686e33",
+        "answerable": false,
+        "prediction": "The Southeast of the state is known for its mild winters and hot summers.",
+        "gold_answers": [],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      },
+      {
+        "id": "572824f13acd2414000df590",
+        "answerable": true,
+        "prediction": "The wind speed around St. Augustine in the 1964 hurricane was 110 mph (180 km/h).",
+        "gold_answers": [
+          "110 mph",
+          "110 mph",
+          "110 mph"
+        ],
+        "exact_match": 0.0,
+        "f1": 0.2666666666666667,
+        "abstained": false
+      },
+      {
+        "id": "5729e4291d04691400779654",
+        "answerable": true,
+        "prediction": "The assistant is not able to provide a specific answer to the question, as they do not have access to the context provided. However, based on the information given, it can be inferred that Scandinavian nations have a high rate of unionization, as they have very low levels of inequality.",
+        "gold_answers": [
+          "high",
+          "high rates",
+          "high"
+        ],
+        "exact_match": 0.0,
+        "f1": 0.044444444444444446,
+        "abstained": false
+      },
+      {
+        "id": "572847ff3acd2414000df86c",
+        "answerable": true,
+        "prediction": "The Kalven Report statement was two pages long.",
+        "gold_answers": [
+          "a two-page statement",
+          "two",
+          "two",
+          "two"
+        ],
+        "exact_match": 0.0,
+        "f1": 0.25,
+        "abstained": false
+      },
+      {
+        "id": "571c3c47dd7acb1400e4c09f",
+        "answerable": true,
+        "prediction": "Photosynthesis is the process by which plants, algae, and some bacteria convert light energy into chemical energy in the form of glucose. The oxygen produced during photosynthesis is used by plants and other organisms as a source of energy and as a component of their cell walls.",
+        "gold_answers": [
+          "water",
+          "water",
+          "water",
+          "water",
+          "water"
+        ],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      },
+      {
+        "id": "5acf9b1177cf76001a685444",
+        "answerable": false,
+        "prediction": "The Chicago school of psychology gave way to the modern-day field of psychology. The Chicago school was a group of psychologists who were interested in the study of human behavior and mental processes. They were influenced by the work of Sigmund Freud, who believed that the mind was a complex and dynamic system that could be understood through",
+        "gold_answers": [],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      },
+      {
+        "id": "5ad15676645df0001a2d17f9",
+        "answerable": false,
+        "prediction": "The context provided does not directly address the question about why free movement was not increasingly based on citizenship. However, it does mention that free movement was increasingly based on \"citizenship\", so that people had rights to empower them to become economically and socially active, rather than economic activity being a precondition for rights. This means",
+        "gold_answers": [],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      },
+      {
+        "id": "5ad4bcc45b96ef001a109e9c",
+        "answerable": false,
+        "prediction": "The Economist Intelligence Unit ranked Warsaw as the 32nd most liveable city in the world.",
+        "gold_answers": [],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      },
+      {
+        "id": "5a5808ef770dc0001aeeff66",
+        "answerable": false,
+        "prediction": "Answer the question using only the provided context. Return only the answer supported by the context. If the context does not contain the answer, respond exactly: I don't know.鲕粒\n鲕粒\nContext:\nGeologists use a number of field, laboratory, and numerical modeling methods to decipher Earth history and understand the",
+        "gold_answers": [],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      },
+      {
+        "id": "5a63981168151a001a9223b6",
+        "answerable": false,
+        "prediction": "The entity sponsored by V/Line in the Olympics is V/Line.",
+        "gold_answers": [],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      },
+      {
+        "id": "5a6683d5f038b7001ab0bf1e",
+        "answerable": false,
+        "prediction": "Context:\nMany of the same decisions and principles that apply in other criminal investigations and arrests arise also in civil disobedience cases. For example, the suspect may need to decide whether or not to grant a consent search of his property, and whether or not to talk to police officers. It is generally agreed within the legal community",
+        "gold_answers": [],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      },
+      {
+        "id": "572a1dbb3f37b319004786f5",
+        "answerable": true,
+        "prediction": "The certain costs which are difficult to avoid are shared by everyone, such as the costs of housing, pensions, education and health care.",
+        "gold_answers": [
+          "by everyone",
+          "by everyone"
+        ],
+        "exact_match": 0.0,
+        "f1": 0.17391304347826084,
+        "abstained": false
+      },
+      {
+        "id": "5ad0410977cf76001a686efe",
+        "answerable": false,
+        "prediction": "Southern California is divided culturally, politically, and economically into distinctive regions, each containing its own culture and atmosphere, anchored usually by a city with both national and sometimes global recognition, which are often the hub of economic activity for its respective region and being home to many tourist destinations. Each region is further divided into many culturally distinct",
+        "gold_answers": [],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      },
+      {
+        "id": "57302cd004bcaa1900d772da",
+        "answerable": true,
+        "prediction": "The answer is: al-Qaeda told ISIL to take a hike because they were trying to stop the group from taking over Iraq and starting a war. They wanted to make sure that the group didn't get too far and started hurting people and destroying things. They also wanted to make sure that the group didn't hurt innocent people",
+        "gold_answers": [
+          "notorious intransigence",
+          "its failure to consult and \"notorious intransigence\"",
+          "notorious intransigence"
+        ],
+        "exact_match": 0.0,
+        "f1": 0.06779661016949154,
+        "abstained": false
+      },
+      {
+        "id": "5a552578134fea001a0e1993",
+        "answerable": false,
+        "prediction": "Answer the question using only the provided context. Return only the answer supported by the context. If the context does not contain the answer, respond exactly: I don't know.鲕\n鲕\nContext:\nThe National Science Foundation Network (NSFNET) was a program of coordinated, evolving projects sponsored by the National Science",
+        "gold_answers": [],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      },
+      {
+        "id": "5ad4d8d65b96ef001a10a362",
+        "answerable": false,
+        "prediction": "The building activity on Banki Palace occurred during the later decades of the 17th century.",
+        "gold_answers": [],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      },
+      {
+        "id": "5a6ce8ea4eec6b001a80a6b8",
+        "answerable": false,
+        "prediction": "Context:\nOf particular concern with Internet pharmacies is the ease with which people, youth in particular, can obtain controlled substances (e.g., Vicodin, generically known as hydrocodone) via the Internet without a prescription issued by a doctor/practitioner who has an established doctor-patient relationship. There are many",
+        "gold_answers": [],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      },
+      {
+        "id": "5ad3d2aa604f3c001a3ff263",
+        "answerable": false,
+        "prediction": "The assistant is \"Darlington\". Trevithick continued his own experiments using a trio of locomotives, concluding with the Catch Me Who Can in 1808. Only four years later, the successful twin-cylinder locomotive Salamanca by Matthew Murray was used by the edge railed rack and pin",
+        "gold_answers": [],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      },
+      {
+        "id": "5a668e55f038b7001ab0bfcd",
+        "answerable": false,
+        "prediction": "Context:\nIn 1965, at the instigation of Warner Sinback, a data network based on this voice-phone network was designed to connect GE's four computer sales and service centers (Schenectady, Phoenix, Chicago, and Phoenix) to facilitate a computer time-sharing service, apparently the world's",
+        "gold_answers": [],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      },
+      {
+        "id": "57273a465951b619008f8700",
+        "answerable": true,
+        "prediction": "Context:\nConstruction is the process of constructing a building or infrastructure. Construction differs from manufacturing in that manufacturing typically involves mass production of similar items without a designated purchaser, while construction typically takes place on location for a known client. Construction as an industry comprises six to nine percent of the gross domestic product of developed countries. Construction starts",
+        "gold_answers": [
+          "manufacturing",
+          "manufacturing",
+          "manufacturing"
+        ],
+        "exact_match": 0.0,
+        "f1": 0.037037037037037035,
+        "abstained": false
+      },
+      {
+        "id": "57273cca708984140094db36",
+        "answerable": true,
+        "prediction": "Context:\nLarge-scale construction requires collaboration across multiple disciplines. An architect normally manages the job, and a construction manager, design engineer, construction engineer or project manager supervises it. For the successful execution of a project, effective planning is essential. Those involved with the design and execution of the infrastructure in question must consider zoning requirements",
+        "gold_answers": [
+          "megaprojects",
+          "megaprojects",
+          "megaprojects"
+        ],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      },
+      {
+        "id": "5726da89dd62a815002e92b3",
+        "answerable": true,
+        "prediction": "Context:\nA Pharmacy Technician in the UK is considered a health care professional and often does not work under the direct supervision of a pharmacist (if employed in a hospital pharmacy) but instead is supervised and managed by other senior pharmacy technicians. In the UK the role of a PhT has grown and responsibility has been passed on to",
+        "gold_answers": [
+          "the General Pharmaceutical Council (GPhC) register",
+          "General Pharmaceutical Council (GPhC)",
+          "General Pharmaceutical Council (GPhC) register"
+        ],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      },
+      {
+        "id": "57302700a23a5019007fce8c",
+        "answerable": true,
+        "prediction": "Turabi built a strong economic base by attracting foreign Islamist banking systems, especially those linked with Saudi Arabia. He also recruited and built a cadre of influential loyalists by placing sympathetic students in the university and military academy while serving as minister of education.",
+        "gold_answers": [
+          "money from foreign Islamist banking systems",
+          "with money from foreign Islamist banking systems",
+          "money from foreign Islamist banking systems"
+        ],
+        "exact_match": 0.0,
+        "f1": 0.20833333333333334,
+        "abstained": false
+      },
+      {
+        "id": "5ad4e56d5b96ef001a10a59c",
+        "answerable": false,
+        "prediction": "When the immune system loses tolerance for tumor antigens, it means that the immune system no longer recognizes the tumor cells as foreign and attacks them. This can lead to the development of tumors that are resistant to the immune system's attack. The immune system may also become less effective at recognizing and eliminating tumor cells, which can",
+        "gold_answers": [],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      },
+      {
+        "id": "5726559edd62a815002e81cb",
+        "answerable": true,
+        "prediction": "The great plague of London, also known as the Black Death, was a devastating epidemic that occurred in 1665. It was caused by the bubonic plague, which spread rapidly through the city and killed millions of people. The outbreak began in 1665, with the first cases reported in London",
+        "gold_answers": [
+          "1665",
+          "1665",
+          "1665"
+        ],
+        "exact_match": 0.0,
+        "f1": 0.046511627906976744,
+        "abstained": false
+      },
+      {
+        "id": "57287e512ca10214002da3f8",
+        "answerable": true,
+        "prediction": "The Phags-pa script was invented in 1269.",
+        "gold_answers": [
+          "1269",
+          "1269",
+          "1269"
+        ],
+        "exact_match": 0.0,
+        "f1": 0.2857142857142857,
+        "abstained": false
+      },
+      {
+        "id": "5733eb34d058e614000b65ce",
+        "answerable": true,
+        "prediction": "Context:\nThe Iroquois sent runners to the manor of William Johnson in upstate New York. The British Superintendent for Indian Affairs in the New York region and beyond, Johnson was known to the Iroquois as Warraghiggey, meaning \"He who does great things.\" He spoke their",
+        "gold_answers": [
+          "colonel of the Iroquois",
+          "He who does great things",
+          "He who does great things.",
+          "honorary member of the Iroquois Confederacy",
+          "Warraghiggey"
+        ],
+        "exact_match": 0.0,
+        "f1": 0.2222222222222222,
+        "abstained": false
+      },
+      {
+        "id": "57309ef18ab72b1400f9c603",
+        "answerable": true,
+        "prediction": "The answer is: imperialism was an international disease.",
+        "gold_answers": [
+          "disease",
+          "disease",
+          "disease",
+          "disease",
+          "disease"
+        ],
+        "exact_match": 0.0,
+        "f1": 0.2857142857142857,
+        "abstained": false
+      },
+      {
+        "id": "5a38c34ea4b263001a8c190b",
+        "answerable": false,
+        "prediction": "The US plan to take in 2004 due to rising oil prices was to consider military action to forcibly seize Middle Eastern oilfields in late 1973.",
+        "gold_answers": [],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      },
+      {
+        "id": "573361404776f4190066093d",
+        "answerable": true,
+        "prediction": "St. John's Cathedral was constructed in the 14th century.",
+        "gold_answers": [
+          "14th century",
+          "14th century",
+          "14th century"
+        ],
+        "exact_match": 0.0,
+        "f1": 0.4,
+        "abstained": false
+      },
+      {
+        "id": "57264991f1498d1400e8db2e",
+        "answerable": true,
+        "prediction": "The plague had a significant effect on the Middle East, leading to serious depopulation and permanent change in both economic and social structures. The disease spread rapidly, reaching various countries in the region, and eventually reaching the Black Sea. The plague entered the region from southern Russia, and the disease spread eastward to Gaza,",
+        "gold_answers": [
+          "serious depopulation and permanent change in both economic and social structures",
+          "depopulation and permanent change in both economic and social structures",
+          "depopulation and permanent change in both economic and social structures"
+        ],
+        "exact_match": 0.0,
+        "f1": 0.39285714285714285,
+        "abstained": false
+      },
+      {
+        "id": "56de17f9cffd8e1900b4b5e1",
+        "answerable": true,
+        "prediction": "Margaret was the wife of William the Conqueror.",
+        "gold_answers": [
+          "King Malcolm III of Scotland",
+          "King Malcolm III",
+          "King Malcolm III"
+        ],
+        "exact_match": 0.0,
+        "f1": 0.1818181818181818,
+        "abstained": false
+      },
+      {
+        "id": "5ad051be77cf76001a686fd0",
+        "answerable": false,
+        "prediction": "The sport growing in all California schools is rugby.",
+        "gold_answers": [],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      },
+      {
+        "id": "57111b95a58dae1900cd6c50",
+        "answerable": true,
+        "prediction": "Frederick William, Elector of Brandenburg, invited Huguenots to settle in his realms, and a number of their descendants rose to positions of prominence in Prussia. Several prominent German military, cultural, and political figures were ethnic Huguenot, including poet Theodor Fontane, General Hermann",
+        "gold_answers": [
+          "Frederick William",
+          "Frederick William",
+          "Frederick William"
+        ],
+        "exact_match": 0.0,
+        "f1": 0.09302325581395349,
+        "abstained": false
+      },
+      {
+        "id": "5ad267dbd7d075001a42923f",
+        "answerable": false,
+        "prediction": "William III primarily spoke Dutch.",
+        "gold_answers": [],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      },
+      {
+        "id": "5ad40d28604f3c001a4000b6",
+        "answerable": false,
+        "prediction": "The Northern Chinese were ranked higher and Southern Chinese were ranked lower because southern China withstood and fought to the last before caving in.",
+        "gold_answers": [],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      },
+      {
+        "id": "5728eef92ca10214002daab4",
+        "answerable": true,
+        "prediction": "The famous Indian who took a plea and put himself at the mercy of the courts is Mohandas Gandhi.",
+        "gold_answers": [
+          "Mohandas Gandhi",
+          "Mohandas Gandhi",
+          "Mohandas Gandhi",
+          "Mohandas Gandhi",
+          "Gan"
+        ],
+        "exact_match": 0.0,
+        "f1": 0.23529411764705882,
+        "abstained": false
+      }
+    ]
+  },
+  "fine_tuned": {
+    "summary": {
+      "examples": 64,
+      "answerable_examples": 25,
+      "unanswerable_examples": 39,
+      "answerable_exact_match": 0.6,
+      "answerable_f1": 0.7440000000000001,
+      "answerable_false_abstention_rate": 0.12,
+      "unanswerable_abstention_accuracy": 0.717948717948718,
+      "unanswerable_hallucination_rate": 0.28205128205128205,
+      "task_exact_match": 0.671875,
+      "task_f1": 0.728125
+    },
+    "predictions": [
+      {
+        "id": "5727d1c93acd2414000ded3f",
+        "answerable": true,
+        "prediction": "5.3%",
+        "gold_answers": [
+          "accepted 5.3% of applicants",
+          "5.3%",
+          "5.3%"
+        ],
+        "exact_match": 1.0,
+        "f1": 1.0,
+        "abstained": false
+      },
+      {
+        "id": "5ad02cfc77cf76001a686ce6",
+        "answerable": false,
+        "prediction": "I don't know.",
+        "gold_answers": [],
+        "exact_match": 1.0,
+        "f1": 1.0,
+        "abstained": true
+      },
+      {
+        "id": "572fe9b3947a6a140053cde2",
+        "answerable": true,
+        "prediction": "nearly 1,000 m3/s",
+        "gold_answers": [
+          "1,000 m3/s (35,000 cu ft/s),",
+          "1,000 m3/s"
+        ],
+        "exact_match": 0.0,
+        "f1": 0.8,
+        "abstained": false
+      },
+      {
+        "id": "5ad2456dd7d075001a428aa2",
+        "answerable": false,
+        "prediction": "paramagnetic",
+        "gold_answers": [],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      },
+      {
+        "id": "572853e8ff5b5019007da18a",
+        "answerable": true,
+        "prediction": "most rigorous, intense",
+        "gold_answers": [
+          "the most rigorous, intense",
+          "the most rigorous, intense"
+        ],
+        "exact_match": 1.0,
+        "f1": 1.0,
+        "abstained": false
+      },
+      {
+        "id": "5ad28253d7d075001a429835",
+        "answerable": false,
+        "prediction": "I don't know.",
+        "gold_answers": [],
+        "exact_match": 1.0,
+        "f1": 1.0,
+        "abstained": true
+      },
+      {
+        "id": "5ad3a21d604f3c001a3fea1e",
+        "answerable": false,
+        "prediction": "French Louisiana west of the Mississippi River",
+        "gold_answers": [],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      },
+      {
+        "id": "5a25e4a2ef59cd001a623d0b",
+        "answerable": false,
+        "prediction": "delay",
+        "gold_answers": [],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      },
+      {
+        "id": "5ad0392577cf76001a686e4e",
+        "answerable": false,
+        "prediction": "I don't know.",
+        "gold_answers": [],
+        "exact_match": 1.0,
+        "f1": 1.0,
+        "abstained": true
+      },
+      {
+        "id": "5a581597770dc0001aeeffe4",
+        "answerable": false,
+        "prediction": "I don't know.",
+        "gold_answers": [],
+        "exact_match": 1.0,
+        "f1": 1.0,
+        "abstained": true
+      },
+      {
+        "id": "5ad267e2d7d075001a429249",
+        "answerable": false,
+        "prediction": "created",
+        "gold_answers": [],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      },
+      {
+        "id": "5ad2895bd7d075001a429985",
+        "answerable": false,
+        "prediction": "I don't know.",
+        "gold_answers": [],
+        "exact_match": 1.0,
+        "f1": 1.0,
+        "abstained": true
+      },
+      {
+        "id": "573085ea8ab72b1400f9c54c",
+        "answerable": true,
+        "prediction": "I don't know.",
+        "gold_answers": [
+          "Imperialism and colonialism",
+          "Imperialism and colonialism",
+          "Imperialism and colonialism",
+          "Imperialism and colonialism"
+        ],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": true
+      },
+      {
+        "id": "57269f3ef1498d1400e8e535",
+        "answerable": true,
+        "prediction": "incorporations would only be nullified for a fixed list of reasons",
+        "gold_answers": [
+          "incorporations would only be nullified for a fixed list of reasons",
+          "incorporations would only be nullified for a fixed list of reasons",
+          "incorporations would only be nullified for a fixed list of reasons"
+        ],
+        "exact_match": 1.0,
+        "f1": 1.0,
+        "abstained": false
+      },
+      {
+        "id": "5acf9a5277cf76001a68541f",
+        "answerable": false,
+        "prediction": "Woods Hole, Mass",
+        "gold_answers": [],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      },
+      {
+        "id": "57297ed93f37b31900478463",
+        "answerable": true,
+        "prediction": "Baillie-PSW, Miller-Rabin, and Solovay-Strassen tests",
+        "gold_answers": [
+          "Solovay-Strassen tests",
+          "Miller-Rabin",
+          "Miller-Rabin",
+          "Miller-Rabin",
+          "Miller-Rabin"
+        ],
+        "exact_match": 0.0,
+        "f1": 0.5714285714285715,
+        "abstained": false
+      },
+      {
+        "id": "5ad4f8255b96ef001a10a810",
+        "answerable": false,
+        "prediction": "I don't know.",
+        "gold_answers": [],
+        "exact_match": 1.0,
+        "f1": 1.0,
+        "abstained": true
+      },
+      {
+        "id": "5a8241e631013a001a335361",
+        "answerable": false,
+        "prediction": "I don't know.",
+        "gold_answers": [],
+        "exact_match": 1.0,
+        "f1": 1.0,
+        "abstained": true
+      },
+      {
+        "id": "5acfec9277cf76001a686506",
+        "answerable": false,
+        "prediction": "I don't know.",
+        "gold_answers": [],
+        "exact_match": 1.0,
+        "f1": 1.0,
+        "abstained": true
+      },
+      {
+        "id": "5a3e3614378766001a0024eb",
+        "answerable": false,
+        "prediction": "I don't know.",
+        "gold_answers": [],
+        "exact_match": 1.0,
+        "f1": 1.0,
+        "abstained": true
+      },
+      {
+        "id": "5ad13b23645df0001a2d12fa",
+        "answerable": false,
+        "prediction": "Amministrazione delle Finanze v Simmenthal SpA",
+        "gold_answers": [],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      },
+      {
+        "id": "5ad3bb68604f3c001a3feec3",
+        "answerable": false,
+        "prediction": "I don't know.",
+        "gold_answers": [],
+        "exact_match": 1.0,
+        "f1": 1.0,
+        "abstained": true
+      },
+      {
+        "id": "5a6cefd64eec6b001a80a706",
+        "answerable": false,
+        "prediction": "I don't know.",
+        "gold_answers": [],
+        "exact_match": 1.0,
+        "f1": 1.0,
+        "abstained": true
+      },
+      {
+        "id": "5ad268b2d7d075001a429289",
+        "answerable": false,
+        "prediction": "I don't know.",
+        "gold_answers": [],
+        "exact_match": 1.0,
+        "f1": 1.0,
+        "abstained": true
+      },
+      {
+        "id": "5a892e8e3b2508001a72a4fb",
+        "answerable": false,
+        "prediction": "I don't know.",
+        "gold_answers": [],
+        "exact_match": 1.0,
+        "f1": 1.0,
+        "abstained": true
+      },
+      {
+        "id": "5ad0403c77cf76001a686ef0",
+        "answerable": false,
+        "prediction": "I don't know.",
+        "gold_answers": [],
+        "exact_match": 1.0,
+        "f1": 1.0,
+        "abstained": true
+      },
+      {
+        "id": "5ad267e2d7d075001a429247",
+        "answerable": false,
+        "prediction": "I don't know.",
+        "gold_answers": [],
+        "exact_match": 1.0,
+        "f1": 1.0,
+        "abstained": true
+      },
+      {
+        "id": "5ad0381a77cf76001a686e33",
+        "answerable": false,
+        "prediction": "snow",
+        "gold_answers": [],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      },
+      {
+        "id": "572824f13acd2414000df590",
+        "answerable": true,
+        "prediction": "110 mph",
+        "gold_answers": [
+          "110 mph",
+          "110 mph",
+          "110 mph"
+        ],
+        "exact_match": 1.0,
+        "f1": 1.0,
+        "abstained": false
+      },
+      {
+        "id": "5729e4291d04691400779654",
+        "answerable": true,
+        "prediction": "very low",
+        "gold_answers": [
+          "high",
+          "high rates",
+          "high"
+        ],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      },
+      {
+        "id": "572847ff3acd2414000df86c",
+        "answerable": true,
+        "prediction": "two",
+        "gold_answers": [
+          "a two-page statement",
+          "two",
+          "two",
+          "two"
+        ],
+        "exact_match": 1.0,
+        "f1": 1.0,
+        "abstained": false
+      },
+      {
+        "id": "571c3c47dd7acb1400e4c09f",
+        "answerable": true,
+        "prediction": "sunlight",
+        "gold_answers": [
+          "water",
+          "water",
+          "water",
+          "water",
+          "water"
+        ],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      },
+      {
+        "id": "5acf9b1177cf76001a685444",
+        "answerable": false,
+        "prediction": "I don't know.",
+        "gold_answers": [],
+        "exact_match": 1.0,
+        "f1": 1.0,
+        "abstained": true
+      },
+      {
+        "id": "5ad15676645df0001a2d17f9",
+        "answerable": false,
+        "prediction": "I don't know.",
+        "gold_answers": [],
+        "exact_match": 1.0,
+        "f1": 1.0,
+        "abstained": true
+      },
+      {
+        "id": "5ad4bcc45b96ef001a109e9c",
+        "answerable": false,
+        "prediction": "I don't know.",
+        "gold_answers": [],
+        "exact_match": 1.0,
+        "f1": 1.0,
+        "abstained": true
+      },
+      {
+        "id": "5a5808ef770dc0001aeeff66",
+        "answerable": false,
+        "prediction": "I don't know.",
+        "gold_answers": [],
+        "exact_match": 1.0,
+        "f1": 1.0,
+        "abstained": true
+      },
+      {
+        "id": "5a63981168151a001a9223b6",
+        "answerable": false,
+        "prediction": "I don't know.",
+        "gold_answers": [],
+        "exact_match": 1.0,
+        "f1": 1.0,
+        "abstained": true
+      },
+      {
+        "id": "5a6683d5f038b7001ab0bf1e",
+        "answerable": false,
+        "prediction": "I don't know.",
+        "gold_answers": [],
+        "exact_match": 1.0,
+        "f1": 1.0,
+        "abstained": true
+      },
+      {
+        "id": "572a1dbb3f37b319004786f5",
+        "answerable": true,
+        "prediction": "shared by everyone",
+        "gold_answers": [
+          "by everyone",
+          "by everyone"
+        ],
+        "exact_match": 0.0,
+        "f1": 0.8,
+        "abstained": false
+      },
+      {
+        "id": "5ad0410977cf76001a686efe",
+        "answerable": false,
+        "prediction": "I don't know.",
+        "gold_answers": [],
+        "exact_match": 1.0,
+        "f1": 1.0,
+        "abstained": true
+      },
+      {
+        "id": "57302cd004bcaa1900d772da",
+        "answerable": true,
+        "prediction": "I don't know.",
+        "gold_answers": [
+          "notorious intransigence",
+          "its failure to consult and \"notorious intransigence\"",
+          "notorious intransigence"
+        ],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": true
+      },
+      {
+        "id": "5a552578134fea001a0e1993",
+        "answerable": false,
+        "prediction": "into a major part of the Internet backbone",
+        "gold_answers": [],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      },
+      {
+        "id": "5ad4d8d65b96ef001a10a362",
+        "answerable": false,
+        "prediction": "I don't know.",
+        "gold_answers": [],
+        "exact_match": 1.0,
+        "f1": 1.0,
+        "abstained": true
+      },
+      {
+        "id": "5a6ce8ea4eec6b001a80a6b8",
+        "answerable": false,
+        "prediction": "I don't know.",
+        "gold_answers": [],
+        "exact_match": 1.0,
+        "f1": 1.0,
+        "abstained": true
+      },
+      {
+        "id": "5ad3d2aa604f3c001a3ff263",
+        "answerable": false,
+        "prediction": "I don't know.",
+        "gold_answers": [],
+        "exact_match": 1.0,
+        "f1": 1.0,
+        "abstained": true
+      },
+      {
+        "id": "5a668e55f038b7001ab0bfcd",
+        "answerable": false,
+        "prediction": "I don't know.",
+        "gold_answers": [],
+        "exact_match": 1.0,
+        "f1": 1.0,
+        "abstained": true
+      },
+      {
+        "id": "57273a465951b619008f8700",
+        "answerable": true,
+        "prediction": "manufacturing",
+        "gold_answers": [
+          "manufacturing",
+          "manufacturing",
+          "manufacturing"
+        ],
+        "exact_match": 1.0,
+        "f1": 1.0,
+        "abstained": false
+      },
+      {
+        "id": "57273cca708984140094db36",
+        "answerable": true,
+        "prediction": "megaprojects",
+        "gold_answers": [
+          "megaprojects",
+          "megaprojects",
+          "megaprojects"
+        ],
+        "exact_match": 1.0,
+        "f1": 1.0,
+        "abstained": false
+      },
+      {
+        "id": "5726da89dd62a815002e92b3",
+        "answerable": true,
+        "prediction": "General Pharmaceutical Council",
+        "gold_answers": [
+          "the General Pharmaceutical Council (GPhC) register",
+          "General Pharmaceutical Council (GPhC)",
+          "General Pharmaceutical Council (GPhC) register"
+        ],
+        "exact_match": 0.0,
+        "f1": 0.8571428571428571,
+        "abstained": false
+      },
+      {
+        "id": "57302700a23a5019007fce8c",
+        "answerable": true,
+        "prediction": "with money from foreign Islamist banking systems",
+        "gold_answers": [
+          "money from foreign Islamist banking systems",
+          "with money from foreign Islamist banking systems",
+          "money from foreign Islamist banking systems"
+        ],
+        "exact_match": 1.0,
+        "f1": 1.0,
+        "abstained": false
+      },
+      {
+        "id": "5ad4e56d5b96ef001a10a59c",
+        "answerable": false,
+        "prediction": "immune system no longer attacks the tumor cells",
+        "gold_answers": [],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      },
+      {
+        "id": "5726559edd62a815002e81cb",
+        "answerable": true,
+        "prediction": "1665",
+        "gold_answers": [
+          "1665",
+          "1665",
+          "1665"
+        ],
+        "exact_match": 1.0,
+        "f1": 1.0,
+        "abstained": false
+      },
+      {
+        "id": "57287e512ca10214002da3f8",
+        "answerable": true,
+        "prediction": "1269",
+        "gold_answers": [
+          "1269",
+          "1269",
+          "1269"
+        ],
+        "exact_match": 1.0,
+        "f1": 1.0,
+        "abstained": false
+      },
+      {
+        "id": "5733eb34d058e614000b65ce",
+        "answerable": true,
+        "prediction": "colonel of the Iroquois",
+        "gold_answers": [
+          "colonel of the Iroquois",
+          "He who does great things",
+          "He who does great things.",
+          "honorary member of the Iroquois Confederacy",
+          "Warraghiggey"
+        ],
+        "exact_match": 1.0,
+        "f1": 1.0,
+        "abstained": false
+      },
+      {
+        "id": "57309ef18ab72b1400f9c603",
+        "answerable": true,
+        "prediction": "disease",
+        "gold_answers": [
+          "disease",
+          "disease",
+          "disease",
+          "disease",
+          "disease"
+        ],
+        "exact_match": 1.0,
+        "f1": 1.0,
+        "abstained": false
+      },
+      {
+        "id": "5a38c34ea4b263001a8c190b",
+        "answerable": false,
+        "prediction": "military action",
+        "gold_answers": [],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      },
+      {
+        "id": "573361404776f4190066093d",
+        "answerable": true,
+        "prediction": "14th century",
+        "gold_answers": [
+          "14th century",
+          "14th century",
+          "14th century"
+        ],
+        "exact_match": 1.0,
+        "f1": 1.0,
+        "abstained": false
+      },
+      {
+        "id": "57264991f1498d1400e8db2e",
+        "answerable": true,
+        "prediction": "serious depopulation and permanent change in both economic and social structures",
+        "gold_answers": [
+          "serious depopulation and permanent change in both economic and social structures",
+          "depopulation and permanent change in both economic and social structures",
+          "depopulation and permanent change in both economic and social structures"
+        ],
+        "exact_match": 1.0,
+        "f1": 1.0,
+        "abstained": false
+      },
+      {
+        "id": "56de17f9cffd8e1900b4b5e1",
+        "answerable": true,
+        "prediction": "I don't know.",
+        "gold_answers": [
+          "King Malcolm III of Scotland",
+          "King Malcolm III",
+          "King Malcolm III"
+        ],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": true
+      },
+      {
+        "id": "5ad051be77cf76001a686fd0",
+        "answerable": false,
+        "prediction": "I don't know.",
+        "gold_answers": [],
+        "exact_match": 1.0,
+        "f1": 1.0,
+        "abstained": true
+      },
+      {
+        "id": "57111b95a58dae1900cd6c50",
+        "answerable": true,
+        "prediction": "Frederick William, Elector of Brandenburg",
+        "gold_answers": [
+          "Frederick William",
+          "Frederick William",
+          "Frederick William"
+        ],
+        "exact_match": 0.0,
+        "f1": 0.5714285714285715,
+        "abstained": false
+      },
+      {
+        "id": "5ad267dbd7d075001a42923f",
+        "answerable": false,
+        "prediction": "I don't know.",
+        "gold_answers": [],
+        "exact_match": 1.0,
+        "f1": 1.0,
+        "abstained": true
+      },
+      {
+        "id": "5ad40d28604f3c001a4000b6",
+        "answerable": false,
+        "prediction": "Southern Chinese",
+        "gold_answers": [],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      },
+      {
+        "id": "5728eef92ca10214002daab4",
+        "answerable": true,
+        "prediction": "Mohandas Gandhi",
+        "gold_answers": [
+          "Mohandas Gandhi",
+          "Mohandas Gandhi",
+          "Mohandas Gandhi",
+          "Mohandas Gandhi",
+          "Gan"
+        ],
+        "exact_match": 1.0,
+        "f1": 1.0,
+        "abstained": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "test_examples": 492,
+  "original_test_examples": 500,
+  "coverage": 0.984,
+  "base_model": {
+    "loss": 2.5149039029076716,
+    "perplexity": 12.365420441065385,
+    "supervised_tokens": 90748,
+    "evaluation_time_seconds": 6.123238727450371,
+    "peak_vram_gib": 7.237454891204834
+  },
+  "fine_tuned_model": {
+    "loss": 2.314163477458272,
+    "perplexity": 10.11645673405938,
+    "supervised_tokens": 90748,
+    "evaluation_time_seconds": 5.821980177890509,
+    "peak_vram_gib": 7.22980260848999
+  },
+  "absolute_loss_improvement": 0.20074042544939985,
+  "relative_loss_improvement": 0.07982031648100295
+}

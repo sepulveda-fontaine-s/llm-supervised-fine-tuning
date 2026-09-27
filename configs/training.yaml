@@ -1,0 +1,89 @@
+model:
+  name: Qwen/Qwen2.5-0.5B
+
+data:
+  path: data/processed/squad_v2
+  max_length: 1024
+  drop_overlength_train: true
+  drop_overlength_validation: true
+  drop_overlength_test: true
+
+training:
+  epochs: 3
+  seed: 42
+  per_device_batch_size: 4
+  gradient_accumulation_steps: 4
+  precision: bf16
+
+  learning_rate: 2.5789950779174585e-05
+  weight_decay: 0.02433937943676302
+  scheduler: linear
+  warmup_ratio: 0.018118910790805944
+
+pilot:
+  learning_rate: 2.0e-5
+  weight_decay: 0.01
+  max_grad_norm: 1.0
+  warmup_steps: 5
+  max_optimizer_steps: 50
+  validation_examples: 128
+
+tuning:
+  n_trials: 12
+
+  # Surrogate tuning horizon.
+  # One complete epoch would be 1875 optimizer steps.
+  max_optimizer_steps: 600
+
+  validation_examples: 128
+
+  learning_rate_min: 2.0e-5
+  learning_rate_max: 8.0e-5
+
+  weight_decay_min: 0.0
+  weight_decay_max: 0.08
+
+  warmup_ratio_min: 0.005
+  warmup_ratio_max: 0.03
+
+  schedulers:
+    - linear
+    - cosine
+
+  evaluation_interval: 100
+  pruning_start_step: 300
+
+  sampler_seed: 42
+
+  study_name: qwen_squad_v2_full_sft_hparam_search_v1
+  storage: sqlite:///results/optuna_squad_v2_v1.db
+
+  startup_trials: 4
+
+confirmation:
+  optimizer_steps: 600
+  validation_examples: null
+
+  candidates:
+    - name: trial_1
+      learning_rate: 2.4828361222971755e-05
+      weight_decay: 0.004646688973455957
+      warmup_ratio: 0.026654403644373378
+      scheduler: cosine
+
+    - name: trial_3
+      learning_rate: 2.5789950779174585e-05
+      weight_decay: 0.02433937943676302
+      warmup_ratio: 0.018118910790805944
+      scheduler: linear
+
+    - name: trial_2
+      learning_rate: 2.0578944510084512e-05
+      weight_decay: 0.07759278817295955
+      warmup_ratio: 0.025811066020010542
+      scheduler: linear
+
+generation:
+  do_sample: false
+  repetition_penalty: 1.0
+  max_new_tokens: 64

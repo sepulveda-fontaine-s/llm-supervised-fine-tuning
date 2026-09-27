@@ -1,0 +1,15 @@
+{
+  "seed": 42,
+  "train_total": 30000,
+  "train_answerable": 18000,
+  "train_unanswerable": 12000,
+  "unanswerable_ratio": 0.4,
+  "validation_total": 5933,
+  "test_total": 5940,
+  "validation_unchanged": true,
+  "test_unchanged": true,
+  "v1_unanswerable_retained": 10000,
+  "v1_answerable_retained": 18000,
+  "new_unanswerable_added": 2000,
+  "selection_note": "Uses the same seed and deterministic selection procedure as V2. V3 retained answerables contain the V2 retained answerables, and V3 added unanswerables are a subset of the V2 additions."
+}

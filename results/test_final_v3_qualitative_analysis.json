@@ -1,0 +1,350 @@
+{
+  "source": "results/test_final_v3.json",
+  "seed": 42,
+  "examples_per_category": 5,
+  "counts": {
+    "answerable_exact_match": 1941,
+    "answerable_partial_match": 294,
+    "answerable_false_abstention": 547,
+    "answerable_wrong_answer": 193,
+    "unanswerable_correct_abstention": 2378,
+    "unanswerable_false_answer": 587
+  },
+  "examples": {
+    "answerable_exact_match": [
+      {
+        "id": "5705ec1675f01819005e776f",
+        "prediction": "Tony Hawk",
+        "gold_answers": [
+          "Tony Hawk",
+          "Tony Hawk",
+          "Tony Hawk"
+        ],
+        "exact_match": 1.0,
+        "f1": 1.0,
+        "abstained": false
+      },
+      {
+        "id": "572881d34b864d1900164a5a",
+        "prediction": "Muslim medicine",
+        "gold_answers": [
+          "Muslim medicine",
+          "Muslim medicine",
+          "Muslim medicine"
+        ],
+        "exact_match": 1.0,
+        "f1": 1.0,
+        "abstained": false
+      },
+      {
+        "id": "5725d42a89a1e219009abf5a",
+        "prediction": "Madera",
+        "gold_answers": [
+          "Madera",
+          "Madera",
+          "Madera"
+        ],
+        "exact_match": 1.0,
+        "f1": 1.0,
+        "abstained": false
+      },
+      {
+        "id": "573005b9947a6a140053cf6b",
+        "prediction": "a pivotal event",
+        "gold_answers": [
+          "a pivotal event",
+          "a pivotal event in the Arab Muslim world",
+          "pivotal event"
+        ],
+        "exact_match": 1.0,
+        "f1": 1.0,
+        "abstained": false
+      },
+      {
+        "id": "572ff293947a6a140053ce56",
+        "prediction": "The Ruhr",
+        "gold_answers": [
+          "Ruhr",
+          "Ruhr",
+          "The Ruhr"
+        ],
+        "exact_match": 1.0,
+        "f1": 1.0,
+        "abstained": false
+      }
+    ],
+    "answerable_partial_match": [
+      {
+        "id": "57264865dd62a815002e8062",
+        "prediction": "the Nice Treaty",
+        "gold_answers": [
+          "Following the Nice Treaty",
+          "2004",
+          "Following the Nice Treaty",
+          "Following the Nice Treaty"
+        ],
+        "exact_match": 0.0,
+        "f1": 0.8,
+        "abstained": false
+      },
+      {
+        "id": "57269e3bf1498d1400e8e519",
+        "prediction": "British Gas",
+        "gold_answers": [
+          "British Gas plc",
+          "British Gas plc",
+          "British Gas plc"
+        ],
+        "exact_match": 0.0,
+        "f1": 0.8,
+        "abstained": false
+      },
+      {
+        "id": "5728848cff5b5019007da29a",
+        "prediction": "less rich Mongol and Semu than there were Mongol and Semu who lived in poverty and were ill treated",
+        "gold_answers": [
+          "rich and well socially standing",
+          "rich and well",
+          "rich and well socially standing"
+        ],
+        "exact_match": 0.0,
+        "f1": 0.18181818181818182,
+        "abstained": false
+      },
+      {
+        "id": "57274d9bf1498d1400e8f5f9",
+        "prediction": "National School system",
+        "gold_answers": [
+          "National School",
+          "National Type",
+          "National School"
+        ],
+        "exact_match": 0.0,
+        "f1": 0.8,
+        "abstained": false
+      },
+      {
+        "id": "57096f37200fba1400367fe8",
+        "prediction": "does not",
+        "gold_answers": [
+          "not",
+          "not",
+          "BSkyB does not carry any control"
+        ],
+        "exact_match": 0.0,
+        "f1": 0.6666666666666666,
+        "abstained": false
+      }
+    ],
+    "answerable_false_abstention": [
+      {
+        "id": "5729f12e3f37b319004785e2",
+        "prediction": "I don't know.",
+        "gold_answers": [
+          "antigen presentation",
+          "antigen presentation",
+          "antigen presentation"
+        ],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": true
+      },
+      {
+        "id": "56e1ee4de3433e1400423214",
+        "prediction": "I don't know.",
+        "gold_answers": [
+          "Proving that any of these classes are unequal",
+          "Proving that any of these classes are unequal",
+          "Proving that any of these classes are unequal"
+        ],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": true
+      },
+      {
+        "id": "5733da01d058e614000b63fb",
+        "prediction": "I don't know.",
+        "gold_answers": [
+          "Iroquois Six Nations, and also by the Cherokee",
+          "Iroquois Six Nations, and also by the Cherokee",
+          "Iroquois Six Nations, and also by the Cherokee",
+          "Iroquois",
+          "the Iroquois Six Nations"
+        ],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": true
+      },
+      {
+        "id": "5728128cff5b5019007d9c79",
+        "prediction": "I don't know.",
+        "gold_answers": [
+          "Warfare and the long occupation",
+          "Warfare and the long occupation",
+          "Warfare and the long occupation"
+        ],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": true
+      },
+      {
+        "id": "57287ccb2ca10214002da3dd",
+        "prediction": "I don't know.",
+        "gold_answers": [
+          "Ming",
+          "Ming dynasty",
+          "the Ming dynasty"
+        ],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": true
+      }
+    ],
+    "answerable_wrong_answer": [
+      {
+        "id": "5725cfd0271a42140099d229",
+        "prediction": "the Central Pacific Railroad",
+        "gold_answers": [
+          "store",
+          "store",
+          "store"
+        ],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      },
+      {
+        "id": "572885c44b864d1900164a7a",
+        "prediction": "Beijing",
+        "gold_answers": [
+          "Khanbaliq",
+          "Khanbaliq",
+          "Khanbaliq"
+        ],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      },
+      {
+        "id": "5729d609af94a219006aa665",
+        "prediction": "stationary",
+        "gold_answers": [
+          "stagnant",
+          "stagnant wages",
+          "stagnant"
+        ],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      },
+      {
+        "id": "573005b9947a6a140053cf6a",
+        "prediction": "a pivotal event in the Arab Muslim world",
+        "gold_answers": [
+          "quick and decisive",
+          "quick and decisive defeat",
+          "quick and decisive"
+        ],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      },
+      {
+        "id": "5725d42a89a1e219009abf5b",
+        "prediction": "WWVA Jamboree",
+        "gold_answers": [
+          "The Fresno Barn",
+          "The Fresno Barn",
+          "the old country-western show at The Fresno Barn"
+        ],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      }
+    ],
+    "unanswerable_correct_abstention": [
+      {
+        "id": "5ad26420d7d075001a429136",
+        "prediction": "I don't know.",
+        "gold_answers": [],
+        "exact_match": 1.0,
+        "f1": 1.0,
+        "abstained": true
+      },
+      {
+        "id": "5a1c6968b4fb5d001871461b",
+        "prediction": "I don't know.",
+        "gold_answers": [],
+        "exact_match": 1.0,
+        "f1": 1.0,
+        "abstained": true
+      },
+      {
+        "id": "5ad11097645df0001a2d0be0",
+        "prediction": "I don't know.",
+        "gold_answers": [],
+        "exact_match": 1.0,
+        "f1": 1.0,
+        "abstained": true
+      },
+      {
+        "id": "5a38aa28a4b263001a8c1880",
+        "prediction": "I don't know.",
+        "gold_answers": [],
+        "exact_match": 1.0,
+        "f1": 1.0,
+        "abstained": true
+      },
+      {
+        "id": "5ad4caf45b96ef001a10a0d8",
+        "prediction": "I don't know.",
+        "gold_answers": [],
+        "exact_match": 1.0,
+        "f1": 1.0,
+        "abstained": true
+      }
+    ],
+    "unanswerable_false_answer": [
+      {
+        "id": "5ad0447f77cf76001a686f52",
+        "prediction": "151",
+        "gold_answers": [],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      },
+      {
+        "id": "5a7b070121c2de001afe9cef",
+        "prediction": "1958",
+        "gold_answers": [],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      },
+      {
+        "id": "5ad41813604f3c001a4003df",
+        "prediction": "94",
+        "gold_answers": [],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      },
+      {
+        "id": "5ad3dbc6604f3c001a3ff3eb",
+        "prediction": "Lombards",
+        "gold_answers": [],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      },
+      {
+        "id": "5a7504cb97ca42001a521dc3",
+        "prediction": "NATO",
+        "gold_answers": [],
+        "exact_match": 0.0,
+        "f1": 0.0,
+        "abstained": false
+      }
+    ]
+  }
+}
